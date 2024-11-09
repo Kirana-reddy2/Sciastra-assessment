@@ -1,0 +1,84 @@
+/* Centering the login form in the viewport */
+#main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5; /* Light grey background */
+    padding: 20px;
+  }
+  
+  /* Styling the login form */
+  #login-form {
+    background-color: #fff; /* White background for the form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px darkorchid;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  /* Form heading */
+  #login-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Label and input fields */
+  .FormGroup {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  /* Styling the login button */
+  #login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: darkorchid;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #login-button:hover {
+    background-color: darkorchid;
+  }
+  
+  /* Links for registration and forgot password */
+  .links {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #register-link, #forgot-link {
+    color: darkorchid;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9rem;
+  }
+  
+  #register-link:hover, #forgot-link:hover {
+    text-decoration: underline;
+  }
+  

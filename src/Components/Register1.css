@@ -1,0 +1,21 @@
+.Main-box5 {
+   width: 25rem;
+    margin: 0 auto;
+    padding: 25px;
+    box-shadow: 0px 4px 12px darkorchid;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  #Form {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  input{
+    height: 1rem;
+  }
+ #Signin :hover{
+    cursor: pointer;
+   
+ }

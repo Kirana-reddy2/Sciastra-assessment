@@ -1,0 +1,94 @@
+ /* Hero Section */
+ .hero {
+    text-align: center;
+    padding: 3rem;
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.737) ,rgb(161, 42, 220));
+    color: white;
+    position: relative;
+  }
+  .carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+  }
+  .carousel-item {
+    display: none;
+  }
+  .carousel-item.active {
+    display: block;
+  }
+  .carousel-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  .carousel-controls button {
+    background: rgba(255, 255, 255, 0.7);
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Courses Section */
+  .courses, .blog {
+    padding: 2rem;
+    background-color: white;
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .course-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .course-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding:1rem;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+  }
+  .course-card img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  .course-card button {
+   background-color: darkorchid;
+   color: white;
+   padding:0.8rem;
+   border: none;
+   
+  }
+  .price {
+    color: orange;
+    font-weight: bold;
+  }
+  .original-price {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  /* Blog Section */
+  .blog-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  .blog-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

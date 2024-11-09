@@ -1,0 +1,163 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+  }
+
+  
+  /* Header Section */
+  .about-header {
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.842) ,rgb(161, 42, 220));
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .about-header h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-header p {
+    font-size: 1.1rem;
+    margin-top: 0.25rem;
+  }
+  
+  /* About Section */
+  .about-section, .mission-section, .values-section, .team-section, .cta-section {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #fff;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2, .mission-section h2, .values-section h2, .team-section h2, .cta-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .about-section p, .mission-section p, .values-section p, .team-section p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Mission Section */
+  .mission-section p {
+    font-style: italic;
+  }
+  
+  /* Values Section */
+  .value-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .value-card {
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .value-card h3 {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    color: #333;
+  }
+  
+  .value-card p {
+    font-size: 0.875rem;
+    color: #777;
+    margin-top: 0.5rem;
+  }
+  
+  .value-card i {
+    font-size: 2.5rem;
+    color: #2cd3e2;
+  }
+  
+  /* Team Section */
+  .team-members {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  
+  .team-member {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .team-member h3 {
+    font-size: 1.125rem;
+    color: #333;
+  }
+  
+  .team-member p {
+    font-size: 0.875rem;
+    color: #777;
+  }
+  
+  /* Call-to-Action Section */
+  .cta-section {
+    background: linear-gradient(to right, rgba(255, 166, 0, 0.737) ,rgb(161, 42, 220));
+    color: white;
+    padding: 2.5rem 1rem;
+    text-align: center;
+  }
+  
+  .cta-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+  
+  .cta-section p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cta-button {
+    background-color: white;
+    color: darkorchid;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #fff;
+    color: #2a9d8f;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

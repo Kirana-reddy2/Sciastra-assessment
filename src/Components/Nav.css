@@ -1,0 +1,81 @@
+/* Nav.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+  }
+  
+  /* Navigation */
+  header {
+    background-color: darkorchid;
+    padding: 1rem 2rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    color: darkorange;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-right: 0.8rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .search-bar button {
+    padding: 0.5rem;
+    background-color: whitesmoke;
+    color: darkorchid;
+    font-weight: bolder;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #ddd;
+  }
+  
+  .signin-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .signin-link:hover {
+    color: #2cd3e2;
+  }
+  

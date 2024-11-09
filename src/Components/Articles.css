@@ -1,0 +1,35 @@
+hr {
+    border: 1px solid darkorchid;
+ 
+  }
+  
+.articles-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Style for text content */
+  .text-content {
+    max-width: 40%; 
+  }
+  
+ 
+  .image-content img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    object-fit: cover;
+  }
+ .info h1{
+font-size: 1.5rem;
+margin-top: 1rem;
+
+ }
+ .info p{
+    color: rgb(40, 40, 40);
+    font-family: 'Times New Roman', Times, serif;
+  margin-top: 1rem;
+ }
+ 
